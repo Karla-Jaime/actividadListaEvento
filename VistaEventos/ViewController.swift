@@ -8,8 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
+    
+    var eventos : [Evento] = []
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return eventos.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celdaEvento = tableView.dequeueReusableCell(withIdentifier: "celdaEvento") as! CeldaEventoController
+        
+        return celdaEvento
+    }
+    
 
+    
+    
+    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

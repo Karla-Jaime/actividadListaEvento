@@ -15,6 +15,8 @@
 		3D90F0DE255B2C4B00ACEB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D90F0DC255B2C4B00ACEB8B /* LaunchScreen.storyboard */; };
 		3D90F0E9255B2C4C00ACEB8B /* VistaEventosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F0E8255B2C4C00ACEB8B /* VistaEventosTests.swift */; };
 		3D90F0F4255B2C4C00ACEB8B /* VistaEventosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F0F3255B2C4C00ACEB8B /* VistaEventosUITests.swift */; };
+		3D90F104255B3CF000ACEB8B /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F103255B3CF000ACEB8B /* Evento.swift */; };
+		3D90F106255B3EBB00ACEB8B /* CeldaEventoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F105255B3EBB00ACEB8B /* CeldaEventoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D90F0EF255B2C4C00ACEB8B /* VistaEventosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VistaEventosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D90F0F3255B2C4C00ACEB8B /* VistaEventosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaEventosUITests.swift; sourceTree = "<group>"; };
 		3D90F0F5255B2C4C00ACEB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D90F103255B3CF000ACEB8B /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		3D90F105255B3EBB00ACEB8B /* CeldaEventoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaEventoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D90F0DA255B2C4B00ACEB8B /* Assets.xcassets */,
 				3D90F0DC255B2C4B00ACEB8B /* LaunchScreen.storyboard */,
 				3D90F0DF255B2C4B00ACEB8B /* Info.plist */,
+				3D90F103255B3CF000ACEB8B /* Evento.swift */,
+				3D90F105255B3EBB00ACEB8B /* CeldaEventoController.swift */,
 			);
 			path = VistaEventos;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D90F104255B3CF000ACEB8B /* Evento.swift in Sources */,
 				3D90F0D6255B2C4300ACEB8B /* ViewController.swift in Sources */,
 				3D90F0D2255B2C4300ACEB8B /* AppDelegate.swift in Sources */,
+				3D90F106255B3EBB00ACEB8B /* CeldaEventoController.swift in Sources */,
 				3D90F0D4255B2C4300ACEB8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
